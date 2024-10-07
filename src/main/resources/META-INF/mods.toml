@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+issueTrackerURL="https://github.com/Mrthomas20121/ForegoingTweaker/issues"
+
+[[mods]]
+modId="unending_horizons"
+version="1.20.1-1.2.0"
+displayName="Unending Horizons"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/unending_horizons"
+#logoFile="tinkers_reforged_logo.png"
+authors="Mrthomas20121"
+description='''
+Make the end a better place.
+'''
+
+[[dependencies.unending_horizons]]
+	modId = "forge"
+	mandatory = true
+	versionRange = "[47.3.7,)"
+	ordering = "NONE"
+	side = "BOTH"

@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "gold_ring": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "charred_horizons:improved_farmland"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/netherrack.png",
+    "description": {
+      "translate": "advancement.charred_horizons.improved_farmland.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "charred_horizons:improved_farmland"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.charred_horizons.improved_farmland"
+    }
+  },
+  "requirements": [
+    [
+      "gold_ring"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

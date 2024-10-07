@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "gold_ring": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "charred_horizons:fiery_spider"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/netherrack.png",
+    "description": {
+      "translate": "advancement.charred_horizons.fiery_spider.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "charred_horizons:fiery_string"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.charred_horizons.fiery_spider"
+    }
+  },
+  "requirements": [
+    [
+      "gold_ring"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
